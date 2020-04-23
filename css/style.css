@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 h1{
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-    color: #5E162C;
-    font-size: 65px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	color: #5E162C;
+	font-size: 65px;
 }
 h3{
-    text-align: center;
-    color: #5E162C;
-    font-size: 25px;
+	text-align: center;
+	color: #5E162C;
+	font-size: 25px;
 }
 body{
-    font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace;
 }
 *{
   box-sizing: border-box;
@@ -20,56 +20,56 @@ body{
   margin: 0;
 }
 .site{
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas:
-        "title title title"
-        "main main main"
-        "footer footer footer";
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-template-areas:
+		"title title title"
+			"main main main"
+			"footer footer footer";
 }
 .masterHead{
-    background-color: orange;
-    grid-area: header;
+	background-color: orange;
+	grid-area: header;
 }
 .pageTitle{
-    background-color: #cccccc;
-    grid-area: title;
+	background-color: #cccccc;
+	grid-area: title;
 }
 .mientras{
-    background-color: #5E162C;
-    grid-area: mientras;
+	background-color: #5E162C;
+	grid-area: mientras;
 }
 .mientras2{
-    background-color: #5E162C;
-    grid-area: mientras2;
+	background-color: #5E162C;
+	grid-area: mientras2;
 }
 .mainContent{
-    background-color: #5E162C;
-    grid-area: main;
+	background-color: #5E162C;
+	grid-area: main;
 }
 .footer{
-    background-color: #cccccc;
-    grid-area: footer;
+	background-color: #cccccc;
+	grid-area: footer;
 }
 #imgGears{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #algoasd{
-    float: right;
+	float: right;
 }
 
 @media screen and (min-width: 700px){
-    .site{
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-rows: .5fr 3fr .5fr;
-        grid-template-areas:
-            "title title title"
-            "mientras main mientras2"
-            "footer footer footer";
-    }
+	.site{
+		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-rows: .5fr 3fr .5fr;
+		grid-template-areas:
+			"title title title"
+				"mientras main mientras2"
+				"footer footer footer";
+	}
 }
